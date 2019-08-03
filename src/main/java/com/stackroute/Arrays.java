@@ -9,8 +9,8 @@ public class Arrays {
         //2-Dimensional array
         int array[][] = new int[2][3];
         System.out.println("enter the array");
-        for (int i = 0; i <= array.length; i++) {
-            for (int j = 0; j <= array[i].length; i++) {
+        for (int i = 0; i <= array.length-1; i++) {
+            for (int j = 0; j <= array[i].length-1; i++) {
                 System.out.println("enter values" + i);
                 array[i][j] = scanner.nextInt();
             }
