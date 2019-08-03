@@ -8,11 +8,12 @@ public class Arrays {
         //The Scanner class is used to get user input, and it is found in the java.util package.
         //2-Dimensional array
         int array[][] = new int[2][3];
+        System.out.println(array.length);
         System.out.println("enter the array");
         for (int i = 0; i <= array.length-1; i++) {
             for (int j = 0; j <= array[i].length-1; i++) {
                 System.out.println("enter values" + i);
-                array[i][j] = scanner.nextInt();
+//                array[i][j] = scanner.nextInt();
             }
         }
         for (int i = 0; i <= array.length - 1; i++) {
